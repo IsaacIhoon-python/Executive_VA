@@ -11,6 +11,7 @@ export const profile = {
   whatsapp: "https://wa.me/2348069436267",
   calendly: "https://calendly.com/isaacihoon/executive-va-discovery",
   siteUrl: "",
+  ctaCopy: "Book a Strategy Call",
 };
 
 export const socials = [
