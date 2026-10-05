@@ -114,7 +114,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xnQsjsdp"
-              value="8547ee37993f6caff745c5498e29e9dd49c165236d5ffb32bbec66fc78f3ae9a"
+              value="ba14075101a1bbffc5aad4b57e48254a966559201982c474d05d6a11587bab01"
             />
 
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
@@ -122,7 +122,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xmIwtLD"
-              value="5c1a936f4a6b4ec6efdd8eb6e014130fdee21f0094d17df6941ae4db859c96e6d6f89efab5baf687b71aa2b7d06eee95"
+              value="e03e8270b2fe5e6fa8a8e17346fb5b14d37224575eff137d6d1ec454380506483dc7ba3a113e71c4653cbcbc11800c3d"
             />
 
             <input type="hidden" name="actionType" value="TGVhZHM=" />
@@ -131,11 +131,7 @@ export default function DiscoveryPage() {
   After a successful Zoho submission, return the visitor
   to the discovery page.
 */}
-            <input
-              type="hidden"
-              name="returnURL"
-              value="https://executive-va-lemon.vercel.app/discovery?submitted=true"
-            />
+            <input type="hidden" name="returnURL" value="null" />
 
             {/* Zoho honeypot */}
             <input
