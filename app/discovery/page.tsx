@@ -108,7 +108,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="returnURL"
-              value="https://isaac-executive-portfolio.vercel.app/discovery?submitted=true"
+              value="https://executive-va-lemon.vercel.app/discovery?submitted=true"
             />
 
             {/* Zoho honeypot */}
@@ -210,7 +210,11 @@ export default function DiscoveryPage() {
               <div className="discovery-field">
                 <label htmlFor="Lead_Source">How did you find me?</label>
 
-                <select id="Lead_Source" name="Lead Source" defaultValue="-None-">
+                <select
+                  id="Lead_Source"
+                  name="Lead Source"
+                  defaultValue="-None-"
+                >
                   <option value="-None-">Select a source</option>
                   <option value="Advertisement">Advertisement</option>
                   <option value="Cold Call">Cold Call</option>
@@ -242,9 +246,7 @@ export default function DiscoveryPage() {
                     ASP (Application Service Provider)
                   </option>
 
-                  <option value="Data/Telecom OEM">
-                    Data/Telecom OEM
-                  </option>
+                  <option value="Data/Telecom OEM">Data/Telecom OEM</option>
 
                   <option value="ERP (Enterprise Resource Planning)">
                     ERP (Enterprise Resource Planning)
@@ -254,13 +256,9 @@ export default function DiscoveryPage() {
                     Government/Military
                   </option>
 
-                  <option value="Large Enterprise">
-                    Large Enterprise
-                  </option>
+                  <option value="Large Enterprise">Large Enterprise</option>
 
-                  <option value="ManagementISV">
-                    ManagementISV
-                  </option>
+                  <option value="ManagementISV">ManagementISV</option>
 
                   <option value="MSP (Management Service Provider)">
                     MSP (Management Service Provider)
@@ -270,43 +268,29 @@ export default function DiscoveryPage() {
                     Network Equipment Enterprise
                   </option>
 
-                  <option value="Non-management ISV">
-                    Non-management ISV
-                  </option>
+                  <option value="Non-management ISV">Non-management ISV</option>
 
-                  <option value="Optical Networking">
-                    Optical Networking
-                  </option>
+                  <option value="Optical Networking">Optical Networking</option>
 
-                  <option value="Service Provider">
-                    Service Provider
-                  </option>
+                  <option value="Service Provider">Service Provider</option>
 
                   <option value="Small/Medium Enterprise">
                     Small/Medium Enterprise
                   </option>
 
-                  <option value="Storage Equipment">
-                    Storage Equipment
-                  </option>
+                  <option value="Storage Equipment">Storage Equipment</option>
 
                   <option value="Storage Service Provider">
                     Storage Service Provider
                   </option>
 
-                  <option value="Systems Integrator">
-                    Systems Integrator
-                  </option>
+                  <option value="Systems Integrator">Systems Integrator</option>
 
-                  <option value="Wireless Industry">
-                    Wireless Industry
-                  </option>
+                  <option value="Wireless Industry">Wireless Industry</option>
 
                   <option value="ERP">ERP</option>
 
-                  <option value="Management ISV">
-                    Management ISV
-                  </option>
+                  <option value="Management ISV">Management ISV</option>
                 </select>
               </div>
 
@@ -376,10 +360,7 @@ Additional Details:`}
               <ArrowUpRight size={17} />
             </a>
 
-            <a
-              className="button ghost"
-              href="mailto:Isaacihoon@gmail.com"
-            >
+            <a className="button ghost" href="mailto:Isaacihoon@gmail.com">
               <Mail size={17} />
               Send an Email
             </a>
