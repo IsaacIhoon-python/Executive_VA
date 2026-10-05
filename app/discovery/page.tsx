@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   ArrowLeft,
   ArrowUpRight,
@@ -11,6 +12,13 @@ import {
 } from "lucide-react";
 
 export default function DiscoveryPage() {
+  const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setSubmitted(params.get("submitted") === "true");
+  }, []);
+
   return (
     <main className="discovery-page">
       {/* Header */}
@@ -25,6 +33,24 @@ export default function DiscoveryPage() {
           Back to Portfolio
         </Link>
       </header>
+
+      {submitted && (
+        <section className="shell" style={{ paddingTop: "32px" }}>
+          <div className="discovery-success" role="status" aria-live="polite">
+            <CheckCircle2 size={28} />
+
+            <div>
+              <h2>Request received successfully.</h2>
+
+              <p>
+                Thank you for reaching out. Your project details have been
+                received, and I&apos;ll review your requirements and follow up
+                with the appropriate next steps.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Hero */}
       <section className="discovery-hero shell">
