@@ -88,7 +88,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xnQsjsdp"
-              value="e228954163e86bd6e5ab2b96664ebc06303e415230612d4dfb9795ffb0060215"
+              value="8547ee37993f6caff745c5498e29e9dd49c165236d5ffb32bbec66fc78f3ae9a"
             />
 
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
@@ -96,7 +96,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xmIwtLD"
-              value="e599006f8293841a12cc5bfa7bf05b192b21fd5bfd336214f239b293191bf461da658b99c2906cee3235633e20f5ced6"
+              value="5c1a936f4a6b4ec6efdd8eb6e014130fdee21f0094d17df6941ae4db859c96e6d6f89efab5baf687b71aa2b7d06eee95"
             />
 
             <input type="hidden" name="actionType" value="TGVhZHM=" />
