@@ -88,7 +88,7 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xnQsjsdp"
-              value="a81c69d3400bc5b8c902a0e9ca7481bc3da1e0c9846e66779815bccb827b1fd5"
+              value="e228954163e86bd6e5ab2b96664ebc06303e415230612d4dfb9795ffb0060215"
             />
 
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
@@ -96,15 +96,15 @@ export default function DiscoveryPage() {
             <input
               type="hidden"
               name="xmIwtLD"
-              value="b1f9cb71f4a12262b65d9c05dc47244a4911d40449e4e69fc8bd8ecb4505042f269899ff2eb580e6520aaea0cf1026c9"
+              value="e599006f8293841a12cc5bfa7bf05b192b21fd5bfd336214f239b293191bf461da658b99c2906cee3235633e20f5ced6"
             />
 
             <input type="hidden" name="actionType" value="TGVhZHM=" />
 
             {/*
-              After a successful Zoho submission, return the visitor
-              to the discovery page.
-            */}
+  After a successful Zoho submission, return the visitor
+  to the discovery page.
+*/}
             <input
               type="hidden"
               name="returnURL"
